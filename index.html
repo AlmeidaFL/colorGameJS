@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+	integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+	crossorigin="anonymous" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+    <title>color Game</title>
+</head>
+<body>
+    <header id="home">
+        <h2 class="home__h2">color Game</h2>
+        <h1 id="home__h1">RGB(123,456,789)</h1>
+        <h2 class="home__h2">guess</h2>
+    </header>
+    <div id='options'>
+        <div id="options-block">
+            <div class="options__btn" onclick="novasCores('nada')">New Colors</div>
+            <div class="options__btn" id='tryAgain'>Try Again</div>
+            <!-- Disabled buttons for bug fixes
+            <div class="options-set">
+                <div class="options__btn" onclick="novasCores('Easy')">Easy</div>
+                <div class="options__btn" onclick="novasCores('Hard')">Hard</div>
+            </div>
+            -->
+    </div>
+    </div>
+    <div id='boxes'>
+        <div id="box-c">
+        <div class="boxes__colors" id='bt-0'></div>
+        <div class="boxes__colors" id='bt-1'></div>
+        <div class="boxes__colors" id='bt-2'></div>
+        <div class="boxes__colors" id='bt-3'></div>
+        <div class="boxes__colors" id='bt-4'></div>
+        <div class="boxes__colors" id='bt-5'></div>
+    </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
