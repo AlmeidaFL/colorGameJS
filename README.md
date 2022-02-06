@@ -21,17 +21,20 @@
 </div>
 
 <div align='center'>
+  
   ## Responsivity
   
   ![Responsive](https://github.com/AlmeidaFL/colorGameJS/blob/main/screenshots/winPhone.png)
- </div>
+  
+</div>
  
- <div align='justify'>
+<div align='justify'>
   - I made the site responsive by using media querys, flexbox and relative measures
-  
+</div>
+<div align='center'>
   ## Win
-  
   ![Win](https://github.com/AlmeidaFL/colorGameJS/blob/main/screenshots/Win.png)
-  
+</div>
+<div align='justify'>
   - If you win, the header background color will change to the correct color
-  </div>
+ </div>
