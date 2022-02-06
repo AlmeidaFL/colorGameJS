@@ -3,6 +3,8 @@
 # colorGameJS
 ### A simple game that you need to match the RGB code with the color boxes
   
+  - You can play following the link: https://almeidafl.github.io/colorGameJS/
+  
 ![Home](https://github.com/AlmeidaFL/colorGameJS/blob/main/screenshots/home.png)
 
 </div>
