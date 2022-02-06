@@ -32,6 +32,7 @@
   - I made the site responsive by using media querys, flexbox and relative measures
 </div>
 <div align='center'>
+  
   ## Win
   
   ![Win](https://github.com/AlmeidaFL/colorGameJS/blob/main/screenshots/Win.png)
